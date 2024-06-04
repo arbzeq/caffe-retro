@@ -34,8 +34,13 @@ header {
 }
 
 header a {
-    margin: 0.5rem 1rem;
+    margin: 0 2rem 0 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: inherit;
 }
+
 
 h1, a {
     font-family: "Spirax", sans-serif;
@@ -43,12 +48,13 @@ h1, a {
 
 h1 {
     color: rgb(170, 0, 0);
-    font-size: 6rem;
+    font-size: 5rem;
     margin: 0;
 }
 
 h2 {
     font-size: 1.5rem;
+    
 }
 
 .hot {
@@ -81,13 +87,13 @@ h2 {
     
 }
 
-
 .description {
     background-color: rgba(112, 0, 0, 0.589);
-    padding: 1.5rem;
-    width: 80%;
-    font-weight: 300;
+    font-weight: 500;
+    padding: 1rem 1rem;
     margin: 0 0 2rem 0;
+    text-align: center;
+    width: 80%;
 }
 
 .description-1 {
@@ -98,9 +104,6 @@ h2 {
     align-self: flex-end;
 }
 
-a {
-    font-size: 4rem;
-}
 
 .info {
     background-color: rgba(0, 0, 0, 0.61);
@@ -146,6 +149,9 @@ li {
         font-size: 10px;
     }
 
+    header a {
+        margin: 0 0rem 0 0rem;
+    }
     .content {
         display: flex;
         flex-direction: column;
